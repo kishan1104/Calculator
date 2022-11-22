@@ -1,4 +1,36 @@
 body{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.container{
+    position: relative;
+ top: 50%;
+ background-color: black;
+ border: 10px solid black;
+}
+
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1;
+    margin: 0;
+}
+
+#backspace{
+    grid-column: 2/4;
+}
+
+.columns{
+    margin: 5px;
+    border-radius: 5px;
+}
+#textbox{
+    width: 250px;
+    height: 50px;
+}
+
+.columns:hover{
+    cursor: pointer;
+}
