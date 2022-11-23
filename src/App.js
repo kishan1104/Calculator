@@ -67,11 +67,11 @@ export default function App() {
           <button name="3" onClick={handleClick} className="columns">
             3
           </button>
-          <button name="0" onClick={handleClick} className="columns">
-            0
-          </button>
           <button name="/" onClick={handleClick} className="columns">
             /
+          </button>
+          <button name="0" onClick={handleClick} className="columns">
+            0
           </button>
           <button onClick={solve} className="columns">
             =
